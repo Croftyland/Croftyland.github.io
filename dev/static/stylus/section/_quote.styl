@@ -1,0 +1,22 @@
+.quote
+	background-color mainColor
+	color #fff
+	text-align center
+	
+.quote-text
+	width 100%
+	max-width 840px
+	margin 0 auto 35px
+	font-size 20px
+	line-height 38px
+	&:before
+		content ''
+		display block
+		sprite($s-quote)
+		margin 0 auto 25px
+	
+.quote-author
+	line-height 38px
+	font-style italic
+	font-size 20px
+	font-family lightFont

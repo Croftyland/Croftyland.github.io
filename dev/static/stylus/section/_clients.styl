@@ -1,0 +1,43 @@
+.clients
+		
+	.slick-arrow
+		position absolute
+		top 50%
+		margin-top -7px
+		width 15px
+		height 15px
+		cursor pointer
+		
+	.slick-disabled
+		opacity 0
+	
+.clients-slider
+	position relative
+
+.clients-slider__prev,
+.clients-slider__next
+	position absolute
+	top 50%
+	margin-top -8px
+	a
+		display block
+		width 16px
+		height 16px
+		&.disabled
+			display none
+	
+.clients-slider__prev
+	left -5%
+	background url('../img/svg/arrow-left.svg') 0 0 no-repeat
+	background-size 100%
+.clients-slider__next
+	right -5%
+	background url('../img/svg/arrow-right.svg') 0 0 no-repeat
+	background-size 100%
+		
+.js-clients__slider
+	li
+		padding 0 10px
+	img
+		display block
+		margin 0 auto

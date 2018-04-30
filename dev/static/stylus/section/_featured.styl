@@ -1,0 +1,75 @@
+.featured
+	.section-text__big
+		margin-bottom 100px
+		
+	.slick-arrow
+		position absolute
+		top 50%
+		margin-top -7px
+		width 15px
+		height 15px
+		cursor pointer
+		
+	.slick-disabled
+		opacity 0
+		
+.featured-item
+	position relative
+	height 370px
+	padding 60px 60px 110px 40px
+	margin 0 15px
+	background-color darkBgColor
+	color whiteColor
+	
+.featured-item__filter
+	display block
+	margin-bottom 35px
+	text-transform uppercase
+	
+.featured-item__text 
+	font-size 24px
+	line-height 33px
+	
+.featured-item__bottom
+	position absolute
+	bottom 50px
+	height 60px
+	padding-left 80px
+	padding-top 10px
+	span
+		display block
+		font-family boldFont
+
+.featured-item__name
+	margin-bottom 10px
+	text-transform uppercase
+	
+.featured-item__photo
+	position absolute
+	top 0
+	left 0
+	
+.featured-slider
+	position relative
+	
+.featured-slider__prev,
+.featured-slider__next
+	position absolute
+	top 50%
+	margin-top -8px
+	a
+		display block
+		width 16px
+		height 16px
+		&.disabled
+			display none
+	
+.featured-slider__prev
+	left -5%
+	background url('../img/svg/arrow-left.svg') 0 0 no-repeat
+	background-size 100%
+	
+.featured-slider__next
+	right -5%
+	background url('../img/svg/arrow-right.svg') 0 0 no-repeat
+	background-size 100%

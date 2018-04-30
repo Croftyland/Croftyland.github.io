@@ -1,0 +1,59 @@
+.facts
+	position relative
+	background url('../img/general/facts.jpg') 0 0 no-repeat
+	background-size cover
+	color #fff
+	&:after
+		content ''
+		position absolute
+		top 0
+		bottom 0
+		right 0
+		left 0
+		z-index 1
+		background-color rgba(0,0,0,.5)
+		display block
+	.container
+		z-index 2
+		
+.facts-item__wrap
+	position relative
+	width 100%
+	max-width 830px
+	margin 0 auto
+	padding 60px 50px 10px 50px
+	background-color rgba(255,255,255,.34)
+	text-align center
+	&:after
+		content ''
+		position absolute
+		bottom -4px
+		left 50%
+		margin-left -37.5px
+		display block
+		width 75px
+		height 4px
+		background-color orangeColor
+		
+		
+	
+.facts-item
+	display inline-block
+	vertical-align top
+	width 40%
+	margin 0 2%	50px	
+	
+.facts-number
+	font-size 27px
+	font-family boldFont
+	&:after
+		content ''
+		display block
+		width 75px
+		height 4px
+		margin 20px auto 10px
+		background-color darkestGrayColor
+		
+
+.facts-title
+	font-size 24px
